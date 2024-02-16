@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Share Ride - Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="https://th.bing.com/th/id/R.32f1de76be606320745a28347eda7aa8?rik=w%2bjm5D4MxYfYLA&riu=http%3a%2f%2fwww.clker.com%2fcliparts%2fA%2fQ%2fB%2fR%2fG%2fx%2fgreen-car-silhouette-hi.png&ehk=7vJ%2b2ByVC5tlV0z830Nrnwmw5ycSedUPyGcpuEI8KSM%3d&risl=&pid=ImgRaw&r=0" type="image/icon type">
+</head>
+<body>
+    <header>
+        <img src="logo2.jpg" alt="Share Ride Logo">
+        <h1>Welcome to Share Ride !</h1>
+        <section id="sign-in">
+            <form id="sign-in-form">
+                <label for="username">YourName:</label><br>
+                <input type="text" id="username" name="username" required><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password" required><br>
+                <label for="re-enter-password">Re-enter Password:</label><br>
+                <input type="password" id="re-enter-password" name="re-enter-password" required><br>
+                <button type="submit">submit</button>
+            </form>
+        </section>
+        <button id="sign-in-button">Sign In</button>
+      </header>
+    <main>
+        <section id="features">
+            <h2>Features</h2>
+            <h4>
+                Welcome to our website, where you can <br>easily book rides to travel one place 
+                to another. Whether it's a short <br>trip or a long journey, find your perfect vehicle match.Share rides,<br>split costs,and enjoy hassle-free travel.start your journey with us today!<br>
+            <button id="book-now">Book Now</button><br>
+            <button id="dailyride" class="hidden">Daily Ride</button>
+            <button id="outstation" class="hidden">Outstation</button>
+            <!-- List of features can be added here -->
+
+            <div id="ride-form" class="hidden">
+                <form id="ride-form-inner">
+                    <label for="pickup-location">Pickup Location:</label><br>
+                    <input type="text" id="pickup-location" name="pickup-location"><br>
+                    <label for="drop-location">Drop Location:</label><br>
+                    <input type="text" id="drop-location" name="drop-location"><br>
+                    <div id="gender-form">
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label><br>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label><br>
+                    </div>
+                    <button type="submit">Find Your Ride</button>
+                </form>
+            </div>
+
+            <div id="outstation-form" class="hidden">
+                <form id="outstation-form-inner">
+                    <label for="pickup-location">Pickup Location:</label><br>
+                    <input type="text" id="pickup-location-outstation" name="pickup-location-outstation"><br>
+                    <label for="drop-location">Drop Location:</label><br>
+                    <input type="text" id="drop-location-outstation" name="drop-location-outstation"><br>
+                    <label for="time">Time:</label><br>
+                    <input type="time" id="time" name="time"><br>
+                    <div id="gender-form">
+                <input type="radio" id="male1" name="gender" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female1" name="gender" value="female">
+                <label for="female">Female</label><br>
+            </div>
+                    <button type="submit">Find Your Ride</button><br>
+                </form>
+            </div><br>
+            <button id="refresh">Refresh Your Information</button><br>
+            <h2>Get Started</h2>
+            <button id="download-app">Download App</button>
+
+        </section>
+        <section id="get-started">
+            <h2>Explore Website</h2>
+        </section>
+        <img src="bacground.webp" alt="Image" id="main-image">
+    </main>
+
+    
+    <footer>
+        <div id="footer">
+            <div id="about-me">
+                <p> 
+                    My academic background at Guru Jambheshwar University of Science and Technology 
+                   currently pursing b.tech computer science engineering 
+                   and ready to aquire new knowledge of my professional and personal growth
+                </p>
+              </div>
+              <div id="copyright">
+                &copy; Share Ride. All rights reserved.
+              </div>
+              <div id="contact-info">
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/nikita-kumari-312495234?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B9ygBeHIKR7e%2BCiLGiFmbgw%3D%3D">Nikita kumari</a></p>
+                <p>Gmail: <a href="mailto:niku2003kumari@gmail.com">niku2003kumari@gmail.com</a></p>
+                <p>Location: Hisar , Haryana</p>
+              </div>
+          </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html> 
